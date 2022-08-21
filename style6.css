@@ -1,0 +1,51 @@
+.father{
+    background-color: rgb(207, 207, 207);
+    width: 800px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.son1 ,
+.son2 div,
+.son3 div,
+.son4 div{
+background-color: gray;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top: 15px;
+margin-left: 15px;
+float: left;
+}
+.son1{
+    width: calc(100% - 30px);
+}
+.son2 div{
+    width: calc((100% - 60px)/3);
+}
+.son3 div{
+    width: calc(( 100% - 45px)/2);
+}
+.son4 div{
+    width: calc(( 100% - 75px)/4);
+    margin-bottom: 15px;
+}
+
+.father2 div {
+    margin: 20px auto;
+    width: 700px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+.normal{
+    background-color: rgb(128, 128, 128);
+}
+.one{
+    background-color: rgb(128, 128, 128 , 30%);
+}
+.two{
+    background-color: rgb(128, 128, 128);
+    opacity: 0.3;
+}
